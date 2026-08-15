@@ -20,27 +20,29 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 
+const IMG = import.meta.env.BASE_URL + "img/";
+
 const ASSETS = {
-  logo: "/manus-storage/brand-logo-transparent_a8b21fd8.png",
-  catSale: "/manus-storage/cat-sale_5b5bd32d.png",
-  catClearance: "/manus-storage/cat-clearance_92022158.jpeg",
-  catDeals: "/manus-storage/cat-deals_dac567a4.png",
-  catPower: "/manus-storage/cat-power-tools_8e50ebdd.png",
-  catCooling: "/manus-storage/cat-cooling_3ea94618.png",
-  catConsumables: "/manus-storage/cat-consumables_8f3253ff.png",
-  catHand: "/manus-storage/cat-hand-tools_96887bd4.png",
-  catIndustrial: "/manus-storage/cat-industrial_88a9eef5.png",
-  catCleaning: "/manus-storage/cat-cleaning_2bcc0dcc.png",
-  catGarden: "/manus-storage/cat-garden_7a4c0237.png",
-  catSafety: "/manus-storage/cat-safety_c9360b75.png",
-  catMeasurement: "/manus-storage/cat-measurement_0e7d962c.png",
-  catStorage: "/manus-storage/cat-storage_24659842.png",
-  catHome: "/manus-storage/cat-home-garden_bf0b68e7.png",
-  productGarda: "/manus-storage/product-garda_4f91f002.jpg",
-  productDewalt: "/manus-storage/product-dewalt_aaa54688.png",
-  rentalHero: "/manus-storage/industrial-rental-hero_1c82d99b.png",
-  powerHero: "/manus-storage/power-tools-hero_24d4288d.png",
-  safetyHero: "/manus-storage/work-safety-hero_e7687e33.png",
+  logo: IMG + "brand-logo-transparent.png",
+  catSale: IMG + "cat-sale.png",
+  catClearance: IMG + "cat-clearance.jpeg",
+  catDeals: IMG + "cat-deals.png",
+  catPower: IMG + "cat-power-tools.png",
+  catCooling: IMG + "cat-cooling.png",
+  catConsumables: IMG + "cat-consumables.png",
+  catHand: IMG + "cat-hand-tools.png",
+  catIndustrial: IMG + "cat-industrial.png",
+  catCleaning: IMG + "cat-cleaning.png",
+  catGarden: IMG + "cat-garden.png",
+  catSafety: IMG + "cat-safety.png",
+  catMeasurement: IMG + "cat-measurement.png",
+  catStorage: IMG + "cat-storage.png",
+  catHome: IMG + "cat-home-garden.png",
+  productGarda: IMG + "product-garda.jpg",
+  productDewalt: IMG + "product-dewalt.png",
+  rentalHero: IMG + "industrial-rental-hero.png",
+  powerHero: IMG + "power-tools-hero.png",
+  safetyHero: IMG + "work-safety-hero.png",
 };
 
 const navItems = [
