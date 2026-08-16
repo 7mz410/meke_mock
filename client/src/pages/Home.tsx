@@ -23,7 +23,7 @@ import { toast } from "sonner";
 const IMG = import.meta.env.BASE_URL + "img/";
 
 const ASSETS = {
-  logo: IMG + "brand-logo-transparent.png",
+  logo: IMG + "logo-blk-bg.png",
   catSale: IMG + "cat-sale.png",
   catClearance: IMG + "cat-clearance.jpeg",
   catDeals: IMG + "cat-deals.png",
