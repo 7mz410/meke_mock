@@ -85,38 +85,33 @@ const categories = [
 
 const products = [
   {
-    title: "סט 3 כלים + שתי סוללות ואביזרים BOSCH",
-    model: "GWS+GBH+GDR",
-    price: "₪2,222",
-    net: "₪1,883 ללא מע״מ",
+    title: "---",
+    model: "---",
+    price: "בקרוב",
     image: ASSETS.catPower,
   },
   {
-    title: "מברגה/מקדחה רוטטת 18V ומארז ביטים מתנה! MAKITA",
-    model: "DHP490WVEX",
-    price: "₪565",
-    net: "₪479 ללא מע״מ",
+    title: "---",
+    model: "---",
+    price: "בקרוב",
     image: ASSETS.catHand,
   },
   {
-    title: "מנגל פחמים ברזילאי מקצועי 100*40 ס״מ GARDA",
-    model: "19020",
-    price: "₪349",
-    net: "₪296 ללא מע״מ",
+    title: "---",
+    model: "---",
+    price: "בקרוב",
     image: ASSETS.productGarda,
   },
   {
-    title: "עגלת כלים 7 מגירות מאובזרת 290 כלים TOUGHRED",
-    model: "170119-008",
-    price: "₪1,999",
-    net: "₪1,694 ללא מע״מ",
+    title: "---",
+    model: "---",
+    price: "בקרוב",
     image: ASSETS.catStorage,
   },
   {
-    title: "סט 7 כלים 20V DEWALT",
-    model: "DCK849M3",
-    price: "₪5,998",
-    net: "₪5,083 ללא מע״מ",
+    title: "---",
+    model: "---",
+    price: "בקרוב",
     image: ASSETS.productDewalt,
   },
 ];
@@ -195,7 +190,7 @@ export default function Home() {
               <Search size={20} strokeWidth={2.5} />
               <input placeholder="איזה מוצר אתם מחפשים?" onKeyDown={(event) => event.key === "Enter" && notify("החיפוש מוכן להצגת תוצאות")}/>
             </label>
-            <p className="contact-line"><Phone size={14} /> ענבר 7, צומת סגולה פתח תקווה <b>*2263</b> <span>מס׳ ספק משרד הביטחון 11022264</span></p>
+            <p className="contact-line"><Phone size={14} /> ענבר 7, צומת סגולה פתח תקווה <b>000-000-0000</b> <span>email@miki.com</span></p>
           </div>
 
           <div className="utility-nav">
@@ -299,7 +294,7 @@ export default function Home() {
                     <div className="product-image"><img src={product.image} alt={product.title} /></div>
                     <h3>{product.title}</h3>
                     <p className="model">דגם: <b>{product.model}</b></p>
-                    <div className="price-block"><strong>{product.price}</strong><span>({product.net})</span></div>
+                    <div className="price-block"><strong>{product.price}</strong></div>
                     <div className="product-actions">
                       <button className="details-button" onClick={() => notify(`פרטים נוספים: ${product.title}`)}>פרטים נוספים</button>
                       <button className="add-button" aria-label="הוספה לסל" onClick={() => addToCart(product.title)}><Plus size={18} /></button>
